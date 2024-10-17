@@ -9,6 +9,19 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.blueGrey,
+        appBar: AppBar(
+          centerTitle: true,
+          backgroundColor: Colors.blueGrey[900],
+          foregroundColor: Colors.white,
+          title: Text('I Am Rich'),
+        ),
+        body: Center(
+          child: Image.asset('images/diamond.png'),
+        ),
+      ),
+    );
   }
 }
