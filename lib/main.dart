@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
           centerTitle: true,
           backgroundColor: Colors.blueGrey[900],
           foregroundColor: Colors.white,
-          title: Text('I Am Rich'),
+          title: const Text('I Am Rich'),
         ),
         body: Center(
           child: Image.asset('images/diamond.png'),
